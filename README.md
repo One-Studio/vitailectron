@@ -1,29 +1,31 @@
 # vitailectron
 
-## Project setup
+## 项目依赖安装
 
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 调试+热加载
 
 ```
 yarn s
 ```
 
-### Compiles and minifies for production
+### 编译打包
 
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### 打包资源镜像设置
+
+```
+yarn config set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+```
+
+### 语法检查
 
 ```
 yarn lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
