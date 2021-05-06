@@ -46,7 +46,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
 }
 

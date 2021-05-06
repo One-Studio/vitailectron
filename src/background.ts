@@ -24,10 +24,10 @@ async function createWindow() {
     //无边框窗口
     frame: false,
     transparent: true,
-    titleBarStyle: 'hidden',
-    backgroundColor: '#00000000',
-    visualEffectState: 'active',
-    vibrancy: 'dark',
+    titleBarStyle: "hidden",
+    backgroundColor: "#00000000",
+    visualEffectState: "active",
+    vibrancy: "dark",
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
